@@ -1,0 +1,360 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+
+.App {
+   font-family: 'Fira Sans', sans-serif; 
+     font-weight: 500;
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 12px;
+    
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .btn1{
+    text-align: center;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-color: #cdffd8; */
+    background-color: #bddceb;
+    /* background-color: #bed4ec */
+
+  }
+
+  /* .form-grp{
+    margin-bottom: 15px;
+  } */
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+   display: block;
+    /* float: left; */
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  select,
+  input[type="text"], input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 6'%3E%3Cpath d='M6 0l-6 6h12z' fill='%23ccc'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    cursor: pointer;
+    
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  /* button {
+    background-color: #8fbef0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+  } */
+
+  button[type="Send"]{
+     
+    background-color: #8fbef0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+    
+
+  }
+
+  button[type="reset"]{
+     
+    background-color: #8fbef0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 110px;
+    align-items: center;
+
+  }
+
+  button[type="Schedule"]{
+     
+    background-color: #8fbef0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 110px;
+    align-items: center;
+
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+ 
+.mob
+{
+  float: left;
+  font-size: medium;
+ 
+}
+
+.remove{
+
+  float: right;
+  font-size: 15px;
+}
+
+.mobbox{
+
+  width: 100%;
+  margin-top: -36px;
+ 
+}
+
+.msgbox{
+
+  width: 100%;
+  margin-bottom: 15px;
+
+ 
+}
+
+textarea{
+   height: 120px;
+}
+  
+
+span1{
+  color: red;
+}
+
+p{
+    float: left;
+    
+    font-weight: lighter;
+}
+
+.csv{
+  max-width: 100%;
+}
+/* select,
+  input[type="text"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  } */
+
+  .datetimestyle
+  {
+    
+    display: flex;
+    /* align-items: center; */
+    
+  }
+
+  .custom-datepicker, .time{
+    margin-right: 70px;
+    margin-left: 30px;
+  }
+
+  .modal-container
+  {
+    width: 350px;
+    height: 300px;
+
+  }
+  .modal-container.center
+  {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  input[type=time]{
+    width: 125px; 
+    height: 30px; 
+    /* height: 40px; */
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 10px;
+    
+  }
+
+  .date{
+    width: 170px;
+  }
+
+  .custom-datepicker input{
+    /* font-size: 15px; */
+    width: 126px; 
+     height: 30px; 
+    border: 1px solid black;
+    
+    
+  }
+
+  /* .dateborder{
+   border: 1px solid red; 
+
+
+  } */
+
+  /* In your stylesheet or within a <style> tag */
+.date-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.datepicker-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  pointer-events: none; /* Make the icon non-clickable, so clicks pass through to the input */
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 5px; /* Adjust the icon's position as needed */
+  top: 23%; /* Center vertically */
+  transform: translateY(-50%);
+  z-index: 1; /* Ensure the icon is on top of the input */
+}
+
+/* .custom-pagination-button {
+  color: blue !important;
+} */
+
+.Page{
+  color: #0056b3;
+}
+
+/* //modal */
+/* .custom-dialog{
+
+  width: 70%;
+} */
+ 
+.required {
+  color: red;
+  margin-left: 4px;
+}
+
+
+
+
+
+/* Add CSS styles for the table, rows, and columns in the template modal */
+.template-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.template-table th, .template-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.template-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.template-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.template-row:hover {
+  background-color: #ddd;
+}
+
+.template-message {
+  max-width: 300px; /* Adjust the width as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-dialog{
+
+  width: 100%;
+}
+.error-message {
+  color: red;
+}
+/* Add this CSS to your CSS file or use a style tag */
+.date-picker {
+    /* width: 100%; */
+
+  
+    
+  
+  /* border: 1px solid black; */
+   
+   
+    border-color: black;
+ 
+    height: 30px;
+  }
+
+  #dateheight
+  {
+    height: 30px;
+    width: 79%;
+    padding: 4%;
+    border: 1px solid black;
+    font-size: 15px;
+  }
+  .error{
+    color: red;
+    font-weight: 500;
+  }
